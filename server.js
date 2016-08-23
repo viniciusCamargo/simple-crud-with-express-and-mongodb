@@ -6,6 +6,8 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 
+app.use(express.static('public'));
+
 var db;
 // MongoClient.connect('mongodb://root:admin@ds013946.mlab.com:13946/star-wars-quotes', (err, database) => {
 MongoClient.connect('mongodb://localhost:27017/star-wars-quotes', (err, database) => {
