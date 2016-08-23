@@ -1,0 +1,16 @@
+{
+  "name": "myCRUD",
+  "version": "1.0.0",
+  "description": "A simple CRUD with Express and MongoDB. Source: http://zellwk.com/blog/crud-express-mongodb",
+  "main": "index.js",
+  "author": "Vinicius Camargo",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
